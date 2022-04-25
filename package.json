@@ -7,6 +7,7 @@
     "prepublishOnly": "make build",
     "test": "make test",
     "lint": "make lint",
+    "fix": "make fix",
     "tsc": "tsc",
     "start": "make start"
   },
@@ -36,7 +37,7 @@
   },
   "homepage": "https://github.com/curveball/new-package#readme",
   "devDependencies": {
-    "@curveball/core": "^0.17.0",
+    "@curveball/core": "^0.18.0",
     "@types/chai": "^4.2.15",
     "@types/mocha": "^9.1.0",
     "@types/node": "^12.20.1",
@@ -51,6 +52,9 @@
     "ts-node": "^10.7.0",
     "typescript": "^4.1.5"
   },
+  "engines": {
+    "node": ">= 14"
+  },
   "types": "dist/",
   "nyc": {
     "extension": [
@@ -58,7 +62,7 @@
     ]
   },
   "peerDependencies": {
-    "@curveball/core": ">=0.17 <1"
+    "@curveball/core": ">=0.18 <1"
   },
   "mocha": {
     "require": "ts-node/register",
