@@ -12,7 +12,7 @@ test:
 
 .PHONY:lint
 lint:
-	node_modules/.bin/eslint --quiet 'src/*.ts' 'test/*.ts'
+	node_modules/.bin/eslint --quiet 'src/**/*.ts' 'test/**/*.ts'
 
 .PHONY:lint-fix
 lint-fix: fix
