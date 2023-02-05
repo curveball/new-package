@@ -1,5 +1,4 @@
 SOURCE_FILES:=$(shell find src/ -type f -name '*.ts')
-VERSION:=$(shell node -e "process.stdout.write(require('./package.json').version)")
 
 .PHONY:all
 all: build
