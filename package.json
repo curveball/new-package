@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/curveball/new-package#readme",
   "devDependencies": {
-    "@curveball/kernel": "^0.21.0-beta.11",
+    "@curveball/kernel": "^0.21.0",
     "@types/chai": "^4.2.15",
     "@types/mocha": "^10.0.1",
     "@types/node": "^16",
@@ -68,7 +68,7 @@
     ]
   },
   "peerDependencies": {
-    "@curveball/kernel": ">=0.21.0-beta.11 <1"
+    "@curveball/kernel": ">=0.21.0 <1"
   },
   "mocha": {
     "loader": [
